@@ -1,7 +1,7 @@
 // Create variables
-organization := "$organization$",
-scalaVersion := "$scala_version$",
-name := "$name$",
+organization := "$organization$"
+scalaVersion := "$scala_version$"
+name := "$name$"
 version := "$version$"
 
 // test
