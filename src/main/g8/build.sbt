@@ -1,8 +1,11 @@
 // Create variables
-organization := "$organization$"
-scalaVersion := "$scala_version$"
-name := "$name$"
-version := "$version$"
+lazy val mainModule = (project in file("."))
+  .settings(
+    organization := "$organization$",
+    scalaVersion := "$scala_version$",
+    name := "$name$",
+    version := "$version$"
+  )
 
 // test
 libraryDependencies += "junit" % "junit" % "4.12" % "test"
