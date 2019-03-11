@@ -14,6 +14,16 @@ libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
 
 // production
 libraryDependencies += "com.github.nscala-time" % "nscala-time_2.11" % "1.8.0"
-libraryDependencies += "org.json4s" % "json4s-jackson_2.11" % "3.2.10"
-libraryDependencies += "org.json4s" % "json4s-native_2.11" % "3.2.10"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.3"
+
+// json4s
+// libraryDependencies += "org.json4s" % "json4s-jackson_2.11" % "3.2.10"
+// libraryDependencies += "org.json4s" % "json4s-native_2.11" % "3.2.10"
+
+// spark
+// libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.0"
+// libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.4.0"
+// libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.0"
+
+// parser combinators
+// libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
