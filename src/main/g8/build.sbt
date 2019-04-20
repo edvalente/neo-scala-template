@@ -8,7 +8,12 @@ lazy val mainModule = (project in file("."))
   )
 
 // test
+$if(use_scalatest.truthy)$
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "3.0.5" % "test"
+$endif$
+$if(use_junit.truthy)$
 libraryDependencies += "junit" % "junit" % "4.12" % "test"
+$endif$
 libraryDependencies += "com.storm-enroute" % "scalameter_2.11" % "0.6"  % "test"
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
 
